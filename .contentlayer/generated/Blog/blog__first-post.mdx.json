@@ -1,0 +1,42 @@
+{
+  "title": "First Post",
+  "date": "2022-06-01T15:32:14.000Z",
+  "tags": [
+    "general"
+  ],
+  "lastmod": "2022-06-01T00:00:00.000Z",
+  "draft": false,
+  "summary": "What I've been up to...",
+  "body": {
+    "raw": "\n## What I've been up to...\n\nIt's been a few years since I wrote in a blog at all. I originally built out a Hugo site that auto deployed using AWS, but stopped writing after a few months - mainly out of lack of time and due to self-imposed pressure on having good enough topics. I decided I wanted to learn more about the Next.js ecosystem, and found this starter blog that used Tailwind as well, so I thought it would be a great way to get back into working on something.\n\n## Goals of the blog\n\nThe last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\n\n- Projects (Both technical and personal/fun things like learning music)\n- General posts (like this one, about life)\n- Technical achievements and learnings\n- Reviews and insights on books/podcasts/etc.\n- Travel and planning information\n- Photography\n\nI'm also hoping to build other non blog features on the site - more to come there!\n",
+    "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var c=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var p=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),f=(t,n)=>{for(var a in n)s(t,a,{get:n[a],enumerable:!0})},l=(t,n,a,o)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of u(n))!m.call(t,i)&&i!==a&&s(t,i,{get:()=>n[i],enumerable:!(o=c(n,i))||o.enumerable});return t};var b=(t,n,a)=>(a=t!=null?d(g(t)):{},l(n||!t||!t.__esModule?s(a,\"default\",{value:t,enumerable:!0}):a,t)),w=t=>l(s({},\"__esModule\",{value:!0}),t);var h=p((v,r)=>{r.exports=_jsx_runtime});var j={};f(j,{default:()=>y,frontmatter:()=>I});var e=b(h()),I={title:\"First Post\",date:new Date(1654097534e3),lastmod:\"2022-06-01\",tags:[\"general\"],draft:!1,summary:\"What I've been up to...\"};function x(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,Object.assign({},t,{children:(0,e.jsx)(a,{})})):a();function a(){let o=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\",ul:\"ul\",li:\"li\"},t.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(o.h2,{id:\"what-ive-been-up-to\",children:[(0,e.jsx)(o.a,{\"aria-hidden\":\"true\",href:\"#what-ive-been-up-to\",tabIndex:\"-1\",children:(0,e.jsx)(o.span,{className:\"icon icon-link\"})}),\"What I've been up to...\"]}),(0,e.jsx)(o.p,{children:\"It's been a few years since I wrote in a blog at all. I originally built out a Hugo site that auto deployed using AWS, but stopped writing after a few months - mainly out of lack of time and due to self-imposed pressure on having good enough topics. I decided I wanted to learn more about the Next.js ecosystem, and found this starter blog that used Tailwind as well, so I thought it would be a great way to get back into working on something.\"}),(0,e.jsxs)(o.h2,{id:\"goals-of-the-blog\",children:[(0,e.jsx)(o.a,{\"aria-hidden\":\"true\",href:\"#goals-of-the-blog\",tabIndex:\"-1\",children:(0,e.jsx)(o.span,{className:\"icon icon-link\"})}),\"Goals of the blog\"]}),(0,e.jsx)(o.p,{children:\"The last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\"}),(0,e.jsxs)(o.ul,{children:[(0,e.jsx)(o.li,{children:\"Projects (Both technical and personal/fun things like learning music)\"}),(0,e.jsx)(o.li,{children:\"General posts (like this one, about life)\"}),(0,e.jsx)(o.li,{children:\"Technical achievements and learnings\"}),(0,e.jsx)(o.li,{children:\"Reviews and insights on books/podcasts/etc.\"}),(0,e.jsx)(o.li,{children:\"Travel and planning information\"}),(0,e.jsx)(o.li,{children:\"Photography\"})]}),(0,e.jsx)(o.p,{children:\"I'm also hoping to build other non blog features on the site - more to come there!\"})]})}}var y=x;return w(j);})();\n;return Component;"
+  },
+  "_id": "blog/first-post.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/first-post.mdx",
+    "sourceFileName": "first-post.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/first-post"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.97,
+    "time": 58200,
+    "words": 194
+  },
+  "slug": "first-post",
+  "toc": [
+    {
+      "value": "What I've been up to...",
+      "url": "#what-ive-been-up-to",
+      "depth": 2
+    },
+    {
+      "value": "Goals of the blog",
+      "url": "#goals-of-the-blog",
+      "depth": 2
+    }
+  ]
+}

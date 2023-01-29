@@ -1,0 +1,30 @@
+{
+  "name": "Firman Prawira",
+  "avatar": "/static/images/ava.png",
+  "occupation": "Freelancer",
+  "company": "Li-Tech",
+  "email": "thaddeusblankenship@gmail.com",
+  "linkedin": "https://www.linkedin.com",
+  "github": "https://github.com/tblankenship",
+  "body": {
+    "raw": "\nI'm a intrested about Tech and owner Li-Tech. I enjoy learning new things, and spend my time outside of work dabbling on small projects.\n\nMost recently, I have focused my time on:\n\n- Side Software Projects\n- Travel (and hacking it as much as possible)\n- Music\n- Cooking\n",
+    "code": "var Component=(()=>{var m=Object.create;var s=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var g=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),b=(n,e)=>{for(var i in e)s(n,i,{get:e[i],enumerable:!0})},r=(n,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of h(e))!u.call(n,o)&&o!==i&&s(n,o,{get:()=>e[o],enumerable:!(a=d(e,o))||a.enumerable});return n};var j=(n,e,i)=>(i=n!=null?m(p(n)):{},r(e||!n||!n.__esModule?s(i,\"default\",{value:n,enumerable:!0}):i,n)),w=n=>r(s({},\"__esModule\",{value:!0}),n);var l=g((M,c)=>{c.exports=_jsx_runtime});var _={};b(_,{default:()=>k,frontmatter:()=>x});var t=j(l()),x={name:\"Firman Prawira\",avatar:\"/static/images/ava.png\",occupation:\"Freelancer\",company:\"Li-Tech\",email:\"thaddeusblankenship@gmail.com\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com/tblankenship\"};function f(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,Object.assign({},n,{children:(0,t.jsx)(i,{})})):i();function i(){let a=Object.assign({p:\"p\",ul:\"ul\",li:\"li\"},n.components);return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(a.p,{children:\"I'm a intrested about Tech and owner Li-Tech. I enjoy learning new things, and spend my time outside of work dabbling on small projects.\"}),(0,t.jsx)(a.p,{children:\"Most recently, I have focused my time on:\"}),(0,t.jsxs)(a.ul,{children:[(0,t.jsx)(a.li,{children:\"Side Software Projects\"}),(0,t.jsx)(a.li,{children:\"Travel (and hacking it as much as possible)\"}),(0,t.jsx)(a.li,{children:\"Music\"}),(0,t.jsx)(a.li,{children:\"Cooking\"})]})]})}}var k=f;return w(_);})();\n;return Component;"
+  },
+  "_id": "authors/default.mdx",
+  "_raw": {
+    "sourceFilePath": "authors/default.mdx",
+    "sourceFileName": "default.mdx",
+    "sourceFileDir": "authors",
+    "contentType": "mdx",
+    "flattenedPath": "authors/default"
+  },
+  "type": "Authors",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.245,
+    "time": 14700,
+    "words": 49
+  },
+  "slug": "default",
+  "toc": []
+}

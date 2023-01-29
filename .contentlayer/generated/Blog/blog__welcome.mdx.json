@@ -1,0 +1,42 @@
+{
+  "title": "Welcome",
+  "date": "2023-01-26T21:32:14.000Z",
+  "tags": [
+    "general"
+  ],
+  "lastmod": "2023-01-26T00:00:00.000Z",
+  "draft": false,
+  "summary": "What I've been up to...",
+  "body": {
+    "raw": "\n## What I've been up to...\n\nThis blog dedicate to lear about Devops,myabe just simple project and i include module to pratice and i hope i can help you learn.\n## Goals of the blog\n\nThe last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\n\n- Projects (Both technical and personal/fun things like learning music)\n- General posts (like this one, about learn)\n- Technical achievements and learnings\n- Reviews and insights on music\n- Pratice Module\n\nI'm also hoping to build other non blog features on the site - more to come there!\n",
+    "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),g=(t,n)=>{for(var i in n)l(t,i,{get:n[i],enumerable:!0})},r=(t,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!p.call(t,o)&&o!==i&&l(t,o,{get:()=>n[o],enumerable:!(a=d(n,o))||a.enumerable});return t};var b=(t,n,i)=>(i=t!=null?h(m(t)):{},r(n||!t||!t.__esModule?l(i,\"default\",{value:t,enumerable:!0}):i,t)),x=t=>r(l({},\"__esModule\",{value:!0}),t);var c=f((y,s)=>{s.exports=_jsx_runtime});var v={};g(v,{default:()=>w,frontmatter:()=>j});var e=b(c()),j={title:\"Welcome\",date:new Date(1674768734e3),lastmod:\"2023-01-26\",tags:[\"general\"],draft:!1,summary:\"What I've been up to...\"};function I(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,Object.assign({},t,{children:(0,e.jsx)(i,{})})):i();function i(){let a=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\",ul:\"ul\",li:\"li\"},t.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h2,{id:\"what-ive-been-up-to\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#what-ive-been-up-to\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"What I've been up to...\"]}),(0,e.jsx)(a.p,{children:\"This blog dedicate to lear about Devops,myabe just simple project and i include module to pratice and i hope i can help you learn.\"}),(0,e.jsxs)(a.h2,{id:\"goals-of-the-blog\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#goals-of-the-blog\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Goals of the blog\"]}),(0,e.jsx)(a.p,{children:\"The last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsx)(a.li,{children:\"Projects (Both technical and personal/fun things like learning music)\"}),(0,e.jsx)(a.li,{children:\"General posts (like this one, about learn)\"}),(0,e.jsx)(a.li,{children:\"Technical achievements and learnings\"}),(0,e.jsx)(a.li,{children:\"Reviews and insights on music\"}),(0,e.jsx)(a.li,{children:\"Pratice Module\"})]}),(0,e.jsx)(a.p,{children:\"I'm also hoping to build other non blog features on the site - more to come there!\"})]})}}var w=I;return x(v);})();\n;return Component;"
+  },
+  "_id": "blog/welcome.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/welcome.mdx",
+    "sourceFileName": "welcome.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/welcome"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.64,
+    "time": 38400,
+    "words": 128
+  },
+  "slug": "welcome",
+  "toc": [
+    {
+      "value": "What I've been up to...",
+      "url": "#what-ive-been-up-to",
+      "depth": 2
+    },
+    {
+      "value": "Goals of the blog",
+      "url": "#goals-of-the-blog",
+      "depth": 2
+    }
+  ]
+}

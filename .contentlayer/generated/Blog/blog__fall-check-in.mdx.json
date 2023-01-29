@@ -1,0 +1,42 @@
+{
+  "title": "Fall check-in",
+  "date": "2022-11-23T21:00:00.000Z",
+  "tags": [
+    "general"
+  ],
+  "lastmod": "2022-11-23T00:00:00.000Z",
+  "draft": false,
+  "summary": "Getting back on here",
+  "body": {
+    "raw": "\n## Life update\n\nIn my usual fashion, I have't posted anything in quite a few months. I had a little free time this evening so I thought I would add an update in hopes that I can begin to be more active on here.\nAfter almost a year at Studio, I ended up leaving - and have found myself at AWS as a Solutions Architect! It was quite the process to prepare and interview for. I'm hoping to post a little about\nthe process I went through, as long as a few tips for anyone looking into a role at Amazon.\n\n## What's next\n\nI'm not too sure about the next direction of the blog. Obviously there's not much content on here. I decided to remove the data stucture and\nalgorithm posts I had on here for a few reasons. The main purpose of posting those pieces was to keep me accountable and to keep pushing myself\nto practice and prepare for interviews. There's plenty of much better resources for those problems on the internet, so no need to keep mine on here!\n\nAfter looking through my about page I realized quite a lot has changed. I took a pause on music production and some of my other creative endeavours\nto focus on work; the first few months have been fairly busy.\n\nI'm hoping to spend some time building a fun project outside of work - I haven't written much code in the last few months, and I miss creating. I'm still in the ideating\nphase of that - so hopefully there will be an update soon!\n",
+    "code": "var Component=(()=>{var c=Object.create;var i=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,m=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var a in t)i(e,a,{get:t[a],enumerable:!0})},r=(e,t,a,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of p(t))!m.call(e,s)&&s!==a&&i(e,s,{get:()=>t[s],enumerable:!(o=l(t,s))||o.enumerable});return e};var I=(e,t,a)=>(a=e!=null?c(u(e)):{},r(t||!e||!e.__esModule?i(a,\"default\",{value:e,enumerable:!0}):a,e)),b=e=>r(i({},\"__esModule\",{value:!0}),e);var d=f((j,h)=>{h.exports=_jsx_runtime});var v={};g(v,{default:()=>y,frontmatter:()=>w});var n=I(d()),w={title:\"Fall check-in\",date:new Date(16692372e5),lastmod:\"2022-11-23\",tags:[\"general\"],draft:!1,summary:\"Getting back on here\"};function x(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,Object.assign({},e,{children:(0,n.jsx)(a,{})})):a();function a(){let o=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},e.components);return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(o.h2,{id:\"life-update\",children:[(0,n.jsx)(o.a,{\"aria-hidden\":\"true\",href:\"#life-update\",tabIndex:\"-1\",children:(0,n.jsx)(o.span,{className:\"icon icon-link\"})}),\"Life update\"]}),(0,n.jsx)(o.p,{children:\"In my usual fashion, I have't posted anything in quite a few months. I had a little free time this evening so I thought I would add an update in hopes that I can begin to be more active on here. After almost a year at Studio, I ended up leaving - and have found myself at AWS as a Solutions Architect! It was quite the process to prepare and interview for. I'm hoping to post a little about the process I went through, as long as a few tips for anyone looking into a role at Amazon.\"}),(0,n.jsxs)(o.h2,{id:\"whats-next\",children:[(0,n.jsx)(o.a,{\"aria-hidden\":\"true\",href:\"#whats-next\",tabIndex:\"-1\",children:(0,n.jsx)(o.span,{className:\"icon icon-link\"})}),\"What's next\"]}),(0,n.jsx)(o.p,{children:\"I'm not too sure about the next direction of the blog. Obviously there's not much content on here. I decided to remove the data stucture and algorithm posts I had on here for a few reasons. The main purpose of posting those pieces was to keep me accountable and to keep pushing myself to practice and prepare for interviews. There's plenty of much better resources for those problems on the internet, so no need to keep mine on here!\"}),(0,n.jsx)(o.p,{children:\"After looking through my about page I realized quite a lot has changed. I took a pause on music production and some of my other creative endeavours to focus on work; the first few months have been fairly busy.\"}),(0,n.jsx)(o.p,{children:\"I'm hoping to spend some time building a fun project outside of work - I haven't written much code in the last few months, and I miss creating. I'm still in the ideating phase of that - so hopefully there will be an update soon!\"})]})}}var y=x;return b(v);})();\n;return Component;"
+  },
+  "_id": "blog/fall-check-in.mdx",
+  "_raw": {
+    "sourceFilePath": "blog/fall-check-in.mdx",
+    "sourceFileName": "fall-check-in.mdx",
+    "sourceFileDir": "blog",
+    "contentType": "mdx",
+    "flattenedPath": "blog/fall-check-in"
+  },
+  "type": "Blog",
+  "readingTime": {
+    "text": "2 min read",
+    "minutes": 1.335,
+    "time": 80100,
+    "words": 267
+  },
+  "slug": "fall-check-in",
+  "toc": [
+    {
+      "value": "Life update",
+      "url": "#life-update",
+      "depth": 2
+    },
+    {
+      "value": "What's next",
+      "url": "#whats-next",
+      "depth": 2
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+[
+  {
+    "title": "Welcome",
+    "date": "2023-01-26T21:32:14.000Z",
+    "tags": [
+      "general"
+    ],
+    "lastmod": "2023-01-26T00:00:00.000Z",
+    "draft": false,
+    "summary": "What I've been up to...",
+    "body": {
+      "raw": "\n## What I've been up to...\n\nThis blog dedicate to lear about Devops,myabe just simple project and i include module to pratice and i hope i can help you learn.\n## Goals of the blog\n\nThe last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\n\n- Projects (Both technical and personal/fun things like learning music)\n- General posts (like this one, about learn)\n- Technical achievements and learnings\n- Reviews and insights on music\n- Pratice Module\n\nI'm also hoping to build other non blog features on the site - more to come there!\n",
+      "code": "var Component=(()=>{var h=Object.create;var l=Object.defineProperty;var d=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,p=Object.prototype.hasOwnProperty;var f=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),g=(t,n)=>{for(var i in n)l(t,i,{get:n[i],enumerable:!0})},r=(t,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of u(n))!p.call(t,o)&&o!==i&&l(t,o,{get:()=>n[o],enumerable:!(a=d(n,o))||a.enumerable});return t};var b=(t,n,i)=>(i=t!=null?h(m(t)):{},r(n||!t||!t.__esModule?l(i,\"default\",{value:t,enumerable:!0}):i,t)),x=t=>r(l({},\"__esModule\",{value:!0}),t);var c=f((y,s)=>{s.exports=_jsx_runtime});var v={};g(v,{default:()=>w,frontmatter:()=>j});var e=b(c()),j={title:\"Welcome\",date:new Date(1674768734e3),lastmod:\"2023-01-26\",tags:[\"general\"],draft:!1,summary:\"What I've been up to...\"};function I(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,Object.assign({},t,{children:(0,e.jsx)(i,{})})):i();function i(){let a=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\",ul:\"ul\",li:\"li\"},t.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h2,{id:\"what-ive-been-up-to\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#what-ive-been-up-to\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"What I've been up to...\"]}),(0,e.jsx)(a.p,{children:\"This blog dedicate to lear about Devops,myabe just simple project and i include module to pratice and i hope i can help you learn.\"}),(0,e.jsxs)(a.h2,{id:\"goals-of-the-blog\",children:[(0,e.jsx)(a.a,{\"aria-hidden\":\"true\",href:\"#goals-of-the-blog\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Goals of the blog\"]}),(0,e.jsx)(a.p,{children:\"The last time I wrote a blog I tried to stay so focused on life optimization that I sort of failed to build out content after a few articles. I think instead here I'm going to try to write about a few more areas:\"}),(0,e.jsxs)(a.ul,{children:[(0,e.jsx)(a.li,{children:\"Projects (Both technical and personal/fun things like learning music)\"}),(0,e.jsx)(a.li,{children:\"General posts (like this one, about learn)\"}),(0,e.jsx)(a.li,{children:\"Technical achievements and learnings\"}),(0,e.jsx)(a.li,{children:\"Reviews and insights on music\"}),(0,e.jsx)(a.li,{children:\"Pratice Module\"})]}),(0,e.jsx)(a.p,{children:\"I'm also hoping to build other non blog features on the site - more to come there!\"})]})}}var w=I;return x(v);})();\n;return Component;"
+    },
+    "_id": "blog/welcome.mdx",
+    "_raw": {
+      "sourceFilePath": "blog/welcome.mdx",
+      "sourceFileName": "welcome.mdx",
+      "sourceFileDir": "blog",
+      "contentType": "mdx",
+      "flattenedPath": "blog/welcome"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.64,
+      "time": 38400,
+      "words": 128
+    },
+    "slug": "welcome",
+    "toc": [
+      {
+        "value": "What I've been up to...",
+        "url": "#what-ive-been-up-to",
+        "depth": 2
+      },
+      {
+        "value": "Goals of the blog",
+        "url": "#goals-of-the-blog",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "title": "Lesson One \"Getting closer to react\" ",
+    "date": "2023-01-27T18:40:14.000Z",
+    "tags": [
+      "general"
+    ],
+    "lastmod": "2023-01-27T00:00:00.000Z",
+    "draft": false,
+    "summary": "Focus Area",
+    "body": {
+      "raw": "\r\n## Focus Area\r\n\r\nIn this lesson we learn about react and how to setup react and install react template project.\r\n\r\n## Whats is React ?\r\n React is a JavaScript library for building user interfaces.\r\n React works in a local environment using a Webpack compiler to allow instant preview of any code change. \r\n This means that anything you change in your source code, it will be compiled in a matter of milliseconds and the outcome will be shown instantly, similar to HTML.\r\n\r\n ## Installation of NodeJS\r\n In this step, we will be installing the tools we need for React. Firstly, we need to install a JavaScript Package manager called NodeJS. This will allow us to install React CLI Tools onto our machine. Head  here [https://nodejs.dev/en/] to install NodeJS onto your machine. \r\n\r\nOn the page, download the installer for your machine’s operating system. It will install an executable installer for seamless installation. Once you have opened the installer, follow the on-screen steps to safely install the file onto your machine. NodeJS will then install some packages for you to install dependencies for any JavaScript project you may have. Dependencies are external packages written by other programmers for us to use in our own project. \r\nThese dependencies are stored in NodeJS and each time we can install them into our project without having to write them on our own.\r\n\r\n## React Tool CLI\r\nFinally, we are almost done with setting up our environment for React. We will need to install the final component, which is the React CLI Tools. Before we start developing our React Project, create a new folder within your machine. This folder will be the root directory for your first React App. Open the code editor of your choice and open the built-in terminal. For StackUp web development quests, we will be using Visual Studio Code. Enter the following commands one \r\nby one for React to populate your directory with the templates and other essential tools needed for your React project.\r\n\r\n## Code\r\nnpx create-react-app counter-app\r\n----\r\ncd counter-app\r\n----\r\nnpm run start\r\n----\r\n\r\nThe first line of the command is to generate the boilerplate. React will create a new folder called counter-app in this case. The second command is to change the directory to that new folder and run the last command. The first word: npm means NodeJS Package Manager and for most command line tools, the first word is usually the program or app responsible for that command. The next word: run is the command for that particular program. For this case, it will open the package.json file and find the command called start. This will spin up the local development server to get our React Project going. Do remember that your local development server will need to be running in the background for you to see changes in your browser. \r\n\r\n## Images\r\n\r\nimages: https://s3.amazonaws.com/appforest_uf/f1674101785248x809012262460433900/c55q1_s3_eo.png\r\n\r\n\r\n\r\n\r\n",
+      "code": "var Component=(()=>{var d=Object.create;var i=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),w=(n,t)=>{for(var o in t)i(n,o,{get:t[o],enumerable:!0})},s=(n,t,o,a)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!u.call(n,r)&&r!==o&&i(n,r,{get:()=>t[r],enumerable:!(a=h(t,r))||a.enumerable});return n};var g=(n,t,o)=>(o=n!=null?d(m(n)):{},s(t||!n||!n.__esModule?i(o,\"default\",{value:n,enumerable:!0}):o,n)),y=n=>s(i({},\"__esModule\",{value:!0}),n);var c=f((I,l)=>{l.exports=_jsx_runtime});var k={};w(k,{default:()=>j,frontmatter:()=>b});var e=g(c()),b={title:'Lesson One \"Getting closer to react\" ',date:new Date(1674844814e3),lastmod:\"2023-01-27\",tags:[\"general\"],draft:!1,summary:\"Focus Area\"};function x(n={}){let{wrapper:t}=n.components||{};return t?(0,e.jsx)(t,Object.assign({},n,{children:(0,e.jsx)(o,{})})):o();function o(){let a=Object.assign({h2:\"h2\",a:\"a\",span:\"span\",p:\"p\"},n.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(a.h2,{id:\"focus-area\",children:[(0,e.jsx)(a.a,{href:\"#focus-area\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Focus Area\"]}),(0,e.jsx)(a.p,{children:\"In this lesson we learn about react and how to setup react and install react template project.\"}),(0,e.jsxs)(a.h2,{id:\"whats-is-react-\",children:[(0,e.jsx)(a.a,{href:\"#whats-is-react-\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Whats is React ?\"]}),(0,e.jsx)(a.p,{children:\"React is a JavaScript library for building user interfaces. React works in a local environment using a Webpack compiler to allow instant preview of any code change. This means that anything you change in your source code, it will be compiled in a matter of milliseconds and the outcome will be shown instantly, similar to HTML.\"}),(0,e.jsxs)(a.h2,{id:\"installation-of-nodejs\",children:[(0,e.jsx)(a.a,{href:\"#installation-of-nodejs\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Installation of NodeJS\"]}),(0,e.jsxs)(a.p,{children:[\"In this step, we will be installing the tools we need for React. Firstly, we need to install a JavaScript Package manager called NodeJS. This will allow us to install React CLI Tools onto our machine. Head here [\",(0,e.jsx)(a.a,{href:\"https://nodejs.dev/en/\",children:\"https://nodejs.dev/en/\"}),\"]\",\" to install NodeJS onto your machine.\"]}),(0,e.jsx)(a.p,{children:\"On the page, download the installer for your machine\\u2019s operating system. It will install an executable installer for seamless installation. Once you have opened the installer, follow the on-screen steps to safely install the file onto your machine. NodeJS will then install some packages for you to install dependencies for any JavaScript project you may have. Dependencies are external packages written by other programmers for us to use in our own project. These dependencies are stored in NodeJS and each time we can install them into our project without having to write them on our own.\"}),(0,e.jsxs)(a.h2,{id:\"react-tool-cli\",children:[(0,e.jsx)(a.a,{href:\"#react-tool-cli\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"React Tool CLI\"]}),(0,e.jsx)(a.p,{children:\"Finally, we are almost done with setting up our environment for React. We will need to install the final component, which is the React CLI Tools. Before we start developing our React Project, create a new folder within your machine. This folder will be the root directory for your first React App. Open the code editor of your choice and open the built-in terminal. For StackUp web development quests, we will be using Visual Studio Code. Enter the following commands one by one for React to populate your directory with the templates and other essential tools needed for your React project.\"}),(0,e.jsxs)(a.h2,{id:\"code\",children:[(0,e.jsx)(a.a,{href:\"#code\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Code\"]}),(0,e.jsxs)(a.h2,{id:\"npx-create-react-app-counter-app\",children:[(0,e.jsx)(a.a,{href:\"#npx-create-react-app-counter-app\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"npx create-react-app counter-app\"]}),(0,e.jsxs)(a.h2,{id:\"cd-counter-app\",children:[(0,e.jsx)(a.a,{href:\"#cd-counter-app\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"cd counter-app\"]}),(0,e.jsxs)(a.h2,{id:\"npm-run-start\",children:[(0,e.jsx)(a.a,{href:\"#npm-run-start\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"npm run start\"]}),(0,e.jsx)(a.p,{children:\"The first line of the command is to generate the boilerplate. React will create a new folder called counter-app in this case. The second command is to change the directory to that new folder and run the last command. The first word: npm means NodeJS Package Manager and for most command line tools, the first word is usually the program or app responsible for that command. The next word: run is the command for that particular program. For this case, it will open the package.json file and find the command called start. This will spin up the local development server to get our React Project going. Do remember that your local development server will need to be running in the background for you to see changes in your browser.\"}),(0,e.jsxs)(a.h2,{id:\"images\",children:[(0,e.jsx)(a.a,{href:\"#images\",\"aria-hidden\":\"true\",tabIndex:\"-1\",children:(0,e.jsx)(a.span,{className:\"icon icon-link\"})}),\"Images\"]}),(0,e.jsxs)(a.p,{children:[\"images: \",(0,e.jsx)(a.a,{href:\"https://s3.amazonaws.com/appforest_uf/f1674101785248x809012262460433900/c55q1_s3_eo.png\",children:\"https://s3.amazonaws.com/appforest_uf/f1674101785248x809012262460433900/c55q1_s3_eo.png\"})]})]})}}var j=x;return y(k);})();\n;return Component;"
+    },
+    "_id": "blog/M1.mdx",
+    "_raw": {
+      "sourceFilePath": "blog/M1.mdx",
+      "sourceFileName": "M1.mdx",
+      "sourceFileDir": "blog",
+      "contentType": "mdx",
+      "flattenedPath": "blog/M1"
+    },
+    "type": "Blog",
+    "readingTime": {
+      "text": "3 min read",
+      "minutes": 2.385,
+      "time": 143100,
+      "words": 477
+    },
+    "slug": "M1",
+    "toc": [
+      {
+        "value": "Focus Area",
+        "url": "#focus-area",
+        "depth": 2
+      },
+      {
+        "value": "Whats is React ?",
+        "url": "#whats-is-react-",
+        "depth": 2
+      },
+      {
+        "value": "Installation of NodeJS",
+        "url": "#installation-of-nodejs",
+        "depth": 2
+      },
+      {
+        "value": "React Tool CLI",
+        "url": "#react-tool-cli",
+        "depth": 2
+      },
+      {
+        "value": "Code",
+        "url": "#code",
+        "depth": 2
+      },
+      {
+        "value": "npx create-react-app counter-app",
+        "url": "#npx-create-react-app-counter-app",
+        "depth": 2
+      },
+      {
+        "value": "cd counter-app",
+        "url": "#cd-counter-app",
+        "depth": 2
+      },
+      {
+        "value": "npm run start",
+        "url": "#npm-run-start",
+        "depth": 2
+      },
+      {
+        "value": "Images",
+        "url": "#images",
+        "depth": 2
+      }
+    ]
+  }
+]
